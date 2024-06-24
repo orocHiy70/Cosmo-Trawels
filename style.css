@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap');
+
+body{
+    margin: 0;   
+        font-family: "Cactus Classical Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+header video{
+    width:100%;
+}
+
+header{
+    position:relative;
+}
+
+header nav{
+    position: absolute;
+    left:0;
+    top:0;
+    width:97%;
+    background-color: rgba(0,0,0,0.4);
+    padding:2% 1%;
+}
+
+nav img{
+    width:100px;
+}
+
+nav div{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1% 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    position:relative;
+    transition: 1s linear;
+}
+
+nav a:hover{
+    bottom: 10px;
+}
+
+p{
+    color: rgb(66, 73, 148);
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding: 0 3%;
+}
+
+h1{
+    color: rgb(57, 62, 116);
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    padding: 0 3%;
+}
+
+.History{
+    background-color: rgb(7, 15, 49);
+}
+
+html{
+    background-color: rgb(3, 0, 15);
+}
+
+.Mercury{
+    border-top: 100px solid rgb(2, 0, 8);
+    padding-top: 1%;
+    background-color: rgb(53, 14, 14);
+    color: rgb(128, 106, 106);
+}
+
+.Apollon{
+    border-top: 100px solid black;
+    padding-top: 1%;
+    background-color: rgb(2, 4, 20);
+    color: blanchedalmond;
+}
+
+.AD{
+    width: 100%;
+    border-bottom: 4px solid rgb(34, 3, 48);
+}
+
+footer div{
+display: flex;
+flex-wrap: wrap;
+}
+
+footer img{
+    width: 50%;
+}
+
+footer p{
+    text-align: center;
+    background-color: rgb(25, 1, 41);
+}
